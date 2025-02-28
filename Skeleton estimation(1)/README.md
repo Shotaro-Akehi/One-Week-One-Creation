@@ -1,6 +1,14 @@
 # MediaPipeを使った骨格推定
 ## 環境準備
 骨格推定を行うために必要なライブラリのインストールを行います。mediapipeをインストール（仮想環境推奨）
+仮想環境の構築
+```ruby:仮想環境の構築
+python3 -m venv [仮想環境名]
+```
+仮想環境の実行
+```ruby:仮想環境の実行
+. [仮想環境名]/bin/activate
+```
 ```ruby:ライブラリのインストール
 pip3 install mediapipe
 ```
