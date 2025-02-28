@@ -10,6 +10,7 @@ python3 -m venv [仮想環境名]
 ```ruby:仮想環境の実行
 . [仮想環境名]/bin/activate
 ```
+ライブラリのインストール
 ```ruby:ライブラリのインストール
 pip3 install mediapipe
 ```
